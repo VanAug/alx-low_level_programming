@@ -1,5 +1,5 @@
-#include main.h
-#include <stdio.h>
+#include "10-add.c"
+#include "main.h"
 
 /**
  * add - Adds two integers and returns
@@ -10,9 +10,7 @@
  *
  * Return: Add of number one and number two.
  */
-
-int add(int a, int b, int c)
+int add(int a, int b)
 {
-  c = a + b;
-  return (c);
+	return (a + b);
 }
