@@ -1,4 +1,6 @@
 #include main.h
+#include <stdio.h>
+
 /**
  * add - Adds two integers and returns
  * the result.
@@ -9,7 +11,8 @@
  * Return: Add of number one and number two.
  */
 
-int add(int a, int b)
+int add(int a, int b, int c)
 {
-	return (a + b);
+  c = a + b;
+  return (c);
 }
